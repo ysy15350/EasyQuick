@@ -1,0 +1,242 @@
+<resources>
+    <string name="app_name">趣收款</string>
+
+    <!--官网-->
+    <string name="official_website">http://qukoubei.59156.cn/</string>
+
+    <string name="slogan">收款就用趣支付</string>
+
+    <string name="agreement"><u>《注册协议》</u></string>
+
+    <string name="bind_service_fail">服务绑定失败</string>
+    <string name="bind_service_success">服务绑定成功</string>
+
+    <!-- 首页选项卡文本 -->
+    <string name="tab1name">理财</string>
+    <string name="tab2name">订单</string>
+    <string name="tab3name">我的</string>
+
+    <string name="title_phone">手机号</string>
+    <string name="title_code">验证码</string>
+    <string name="title_pwd_new">新密码</string>
+    <string name="title_pwd_new_ok">确认新密码</string>
+
+    <string name="tab1_profit_title1">累计收益</string>
+    <string name="tab1_profit_title2">昨日收益</string>
+    <string name="tab1_profit_title3">总余额</string>
+    <string name="tab1_profit_title4">年利率(%)</string>
+
+    <string name="tab1_profit_bottom">让零钱理财，让零钱安稳收益</string>
+
+
+    <string name="default_text">-</string>
+    <string name="tab1_profit_value_default">0.00</string>
+
+    <string name="recharge">充值</string>
+    <string name="recharge_ok">确认充值</string>
+    <string name="withdraw">提现</string>
+    <string name="withdraw_ok">确认提现</string>
+
+
+    <string name="tab2_profit_title">月收款总额（元）</string>
+
+    <string name="profit_detail_title">累计收益（元）</string>
+
+    <!--************************订单************************-->
+    <string name="into_zhifubao">支付宝转入</string>
+    <string name="into_weixin">微信转入</string>
+
+    <string name="balance_interest_title">余额利息</string>
+    <!--************************订单end************************-->
+
+    <string name="tab3_profit_title1">余额</string>
+    <string name="tab3_profit_title2">收益</string>
+    <string name="tab3_profit_title3">年利率</string>
+
+    <!-- 我的顶部 -->
+    <string name="setting">设置</string>
+    <string name="login">登录</string>
+    <string name="register">注册</string>
+
+    <!-- tab3菜单 -->
+    <string name="tab3_menu_1">扫一扫</string>
+    <string name="tab3_menu_2">收钱</string>
+    <string name="tab3_menu_3">余额</string>
+    <string name="tab3_menu_4">充值</string>
+    <string name="tab3_menu_5">提现</string>
+    <string name="tab3_menu_6">个人资料</string>
+
+    <!--个人中心菜单-->
+    <string name="myinfo_title1">头像</string>
+    <string name="myinfo_title2">昵称</string>
+    <string name="myinfo_title3">身份证号码</string>
+    <string name="myinfo_title4">支付宝绑定</string>
+    <string name="myinfo_title5">微信绑定</string>
+    <string name="myinfo_title6">姓名</string>
+    <string name="myinfo_title7">上传身份证(请按照范例上传身份证正反面)</string>
+    <string name="myinfo_title8">手机号码</string>
+    <string name="myinfo_title9">地址</string>
+    <string name="myinfo_title10">主营范围</string>
+    <string name="myinfo_title11">商家介绍</string>
+    <string name="myinfo_title12">修改密码</string>
+    <string name="myinfo_title13">设置支付密码</string>
+
+    <!--添加银行卡-->
+    <string name="add_bank_title1">持卡人</string>
+    <string name="add_bank_title2">手机号</string>
+    <string name="add_bank_title3">卡号</string>
+    <string name="add_bank_title4">银行</string>
+    <string name="add_bank_title5">开户行</string>
+
+    <!--设置-->
+    <string name="setting1">蓝牙打印机</string>
+    <string name="setting2">检测更新</string>
+    <string name="setting3">注销</string>
+
+    <!--文本框提示-->
+    <string name="hint_edit">请输入</string>
+    <string name="hint_login_username">用户名</string>
+    <string name="hint_login_password">密码</string>
+
+    <string name="hint_register_phone">请输入手机号</string>
+    <string name="hint_register_code">请输入验证码</string>
+    <string name="hint_register_password">请输入密码</string>
+
+    <!-- 按钮文本 -->
+    <string name="btn_get_code">获取验证码</string>
+    <string name="btn_register">立即注册</string>
+    <string name="btn_register_underline"><u>立即注册</u></string>
+    <string name="btn_login">立即登录</string>
+    <string name="btn_login_underline"><u>立即登录</u></string>
+    <string name="btn_ok">确定</string>
+    <string name="btn_cancel">取消</string>
+    <string name="btn_save">保存</string>
+    <string name="forgot_pwd_underline"><u>忘记密码？</u></string>
+
+    <!-- 注册标题 -->
+    <string name="register_phone_error">手机号格式错误</string>
+    <string name="register_code_error">请输入验证码</string>
+    <string name="register_password_error">至少设置6位密码</string>
+    <string name="register_password_different">密码输入不一致</string>
+
+    <!--************************ 添加银行卡************************-->
+    <string name="add_bank_card_mustName">请输入姓名</string>
+    <string name="add_bank_card_mustCard">请输入银行卡号</string>
+
+    <!--************************ 添加银行卡end************************-->
+
+
+    <!-- 下拉刷新 -->
+    <string name="header_hint_refresh_normal">下拉刷新</string>
+    <string name="header_hint_refresh_ready">松开刷新数据</string>
+    <string name="header_hint_refresh_loading">正在加载...</string>
+    <string name="header_hint_refresh_time">上次更新时间：</string>
+    <string name="footer_hint_load_normal">查看更多</string>
+    <string name="footer_hint_load_ready">松开载入更多</string>
+
+    <!-- 标题右边菜单文本 -->
+    <string name="select_title">筛选</string>
+    <string name="edit">编辑</string>
+    <string name="previous">上一个</string>
+    <string name="next">下一个</string>
+
+
+    <!--选择照片-->
+    <string name="album_view">选择图片</string>
+    <string name="image_view">单击选择</string>
+    <string name="add">确定</string>
+    <string name="selected">已选</string>
+    <string name="limit_exceeded">最多能选 %d 张</string>
+
+
+    <!--权限-->
+    <string name="permission_title_rationale">Permission needed</string>
+    <string name="permission_read_storage_rationale">Storage read permission is needed to pick files.</string>
+    <string name="permission_write_storage_rationale">Storage write permission is needed to save the image.</string>
+
+
+    <!--打印机-->
+    <!--text-->
+    <string name="printer_serial_num">打印机序列号</string>
+    <string name="printer_model">打印机型号</string>
+    <string name="printer_head">打印头型号</string>
+    <string name="printer_firmware">打印机固件版本号</string>
+    <string name="printer_head_size">打印机头尺寸</string>
+    <string name="printer_distance">打印距离</string>
+    <string name="printer_version">打印服务版本</string>
+    <string name="printer_dev_version">打印服务开发版本</string>
+    <string name="enter_work">进入事务打印</string>
+    <string name="exit_work">退出事务打印</string>
+    <string name="print_baidu_ticket">打印百度小票</string>
+    <string name="print_meituan_ticket">打印美团小票</string>
+    <string name="print_eleme_ticket">打印饿了么小票</string>
+    <string name="print_koubei_ticket">打印口碑小票</string>
+    <string name="print_interval_black">打印间断黑块</string>
+    <string name="print_black">打印大黑块</string>
+    <string name="print">打印</string>
+    <string name="printing">打印中~~~</string>
+    <string name="input_barcode">请输入条形码内容</string>
+    <string name="content_barcode">条形码内容</string>
+    <string name="encode_barcode">条形码编码</string>
+    <string name="no_print">不打印文字</string>
+    <string name="barcode_up">条形码上方</string>
+    <string name="barcode_down">条形码下方</string>
+    <string name="barcode_updown">条形码上下方</string>
+    <string name="text_position">文字位置</string>
+    <string name="barcode_height">条形码高度</string>
+    <string name="barcode_width">条形码宽度</string>
+    <string name="content_qrcode">二维码内容</string>
+    <string name="input_qrcode">请输入二维码内容</string>
+    <string name="array_qrcode">二维码排列方式</string>
+    <string name="size_qrcode">二维码块大小</string>
+    <string name="error_qrcode">二维码纠错等级</string>
+    <string name="upload_info">上传打印信息</string>
+    <string name="characterset">字符集</string>
+    <string name="size_text">字体大小</string>
+    <string name="type_text">文字字体</string>
+    <string name="bold_text">加粗</string>
+    <string name="underline_text">下划线</string>
+    <string name="connect_method">连接方式</string>
+    <string name="size_paper">纸张尺寸</string>
+    <string name="print_density">打印浓度</string>
+    <string name="add_line">新增一行</string>
+    <string name="content_form">表格内容</string>
+    <string name="weight_form">内容权重</string>
+    <string name="align_form">对齐方式</string>
+    <string name="align_left">居左</string>
+    <string name="align_mid">居中</string>
+    <string name="align_right">居右</string>
+    <string name="confirm">确定</string>
+    <string name="cancel">取消</string>
+    <string name="about">关于</string>
+    <string name="single">单个</string>
+    <string name="twice">双个</string>
+    <string name="connect_service">连接服务</string>
+    <string name="disconnect_service">断开服务</string>
+    <string name="input_order">请输入指令:</string>
+    <string name="multithread">多线程并发打印</string>
+    <string name="multithread_stop">点击停止</string>
+
+    <!--instruction-->
+    <string name="toast_1">事务打印请使用Aidl模式!</string>
+    <string name="toast_2">服务已断开!</string>
+    <string name="toast_3">蓝牙设备不可用</string>
+    <string name="toast_4">未检测到蓝牙设备，请打开蓝牙</string>
+    <string name="toast_5">未发现InnterPrinter!</string>
+    <string name="toast_6">蓝牙连接失败!</string>
+    <string name="toast_7">AIDL 暂时只打印单个二维码</string>
+    <string name="toast_8">两个二维码尺寸最大为7</string>
+
+    <!--about content-->
+    <string name="about_content">PrinterHelper适用于sunmi系列\nPrinterHelper集成了AIDL和BLUETOOTH两种连接方式，并且提供一系列的打印测试模块，帮助开发者更快的接入sunmi打印功能。\n上传打印信息可以帮助sunmi更好的定位出现的问题。\n官网:http://www.sunmi.com\n开发者文档: http://docs.sunmi.com
+    </string>
+
+    <!--function explain-->
+    <string name="text_instruction">说明：Sunmi打印字体是等宽字体，除支持常用Epson指令集设置字体结构外，还可以使用AIDL接口调用直接设置字体大小尺寸，测试demo仅使用后者设置字体大小，开发者有意可自己查阅相关Epson指令设置字体变化。\n注意：字符集的设置只影响指令打印不会影响AIDL打印文字，打印单字节字符集需要先设置单字节模式，Sunmi服务默认双字节模式！</string>
+
+    <!--print content-->
+    <string name="text_print">欢迎光临(简体中文)\n歡迎光臨(繁体中文)\nWelcome(英文)\n어서 오세요.(韩文)\nいらっしゃいませ(日文)\nWillkommen in der(德文)\nSouhaits de bienvenue(法文)\nยินดีต้อนรับสู่(泰文)\nДобро пожаловать(俄文)\nBenvenuti a(意大利语)\nvítejte v(捷克文)\nBEM - vindo Ao(葡萄牙文)\nمرحبا بكم في(阿拉伯语)\n</string>
+
+    <!--table explain-->
+    <string name="table_instruction">说明：蓝牙打印表格只提供例子及打印效果测试，具体方法可参考epson指令集。</string>
+</resources>

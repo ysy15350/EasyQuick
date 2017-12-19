@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/base_form"
+    android:background="#f0eff4">
+
+    <!--充值-->
+
+    <include layout="@layout/form_head" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="@dimen/dp13"
+        android:layout_marginStart="@dimen/dp13"
+        android:layout_marginTop="@dimen/dp20"
+        android:background="@drawable/shape_dialog"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/dp20"
+            android:layout_marginTop="@dimen/dp24"
+            android:text="收款金额"
+            android:textColor="#222222"
+            android:textSize="@dimen/sp24" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp80"
+            android:layout_marginStart="@dimen/dp20"
+            android:layout_marginTop="@dimen/dp13">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="￥"
+                android:textColor="#222222"
+                android:textSize="@dimen/sp32" />
+
+            <EditText
+                android:id="@+id/et_price"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:background="@null"
+                android:hint="@string/hint_edit"
+                android:inputType="numberDecimal"
+                android:textColor="#222222"
+                android:textColorHint="@color/text_hint"
+                android:textSize="@dimen/sp28" />
+        </LinearLayout>
+
+        <View style="@style/view_line_short" />
+
+
+        <EditText
+            android:id="@+id/et_remark"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/dp20"
+            android:layout_marginTop="@dimen/dp13"
+            android:background="@null"
+            android:hint="点击此处，添加收钱备注"
+            android:textColor="#576b95"
+            android:textColorHint="#576b95"
+            android:textSize="@dimen/sp20" />
+
+        <View
+            style="@style/view_line"
+            android:layout_marginTop="@dimen/dp20" />
+
+
+        <LinearLayout
+            android:id="@+id/ll_pay_type"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp60"
+            android:gravity="center_vertical">
+
+            <ImageView
+                android:layout_width="@dimen/dp25"
+                android:layout_height="@dimen/dp25"
+                android:layout_marginStart="@dimen/dp20"
+                android:src="@mipmap/icon_choose_pay" />
+
+            <TextView
+                style="@style/text_content"
+                android:layout_marginStart="@dimen/dp13"
+                android:layout_weight="1"
+                android:gravity="left"
+                android:text="选择收款方式" />
+
+            <ImageView style="@style/item_right" />
+
+        </LinearLayout>
+
+        <View style="@style/view_line_short" />
+
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tv_pay_result"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/text_content"
+        android:textSize="@dimen/sp16" />
+
+
+</LinearLayout>
